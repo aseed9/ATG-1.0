@@ -1,6 +1,7 @@
 # ATG V1.0 
 Attack Technique Guide is a python script created to help starters and
 experienced hackers organize their attack methodologies.
+This was not made to spoonfeed anyone. In order to follow the guide you have to research. 
 
 Coded By aseed9 - irc.anonops.com:6697
 
