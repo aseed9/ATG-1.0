@@ -17,7 +17,7 @@ while main:
   3. Post Exploitation
   4. Exit
            """)
-
+    main = False       
     main = input('Select Option : ')
 
     if main == "1":
@@ -64,9 +64,12 @@ while main:
                     if sub == "6":
                         main = True
 
+                    else:
+                        sub = True    
+
                 except : 
-                        print("Select a valid option!")
                         sub = True
+                        
 
     if main == "2":
         sub2 = True
@@ -94,10 +97,12 @@ while main:
                         sub2 = True
 
                     if sub2 == "3":
-                        main = True  
-                
+                        main = True
+
+                    else:
+                        sub2 = True      
+                              
                 except:
-                    print("Select a valid option!")
                     sub2 = True              
 
     if main == "3":
@@ -123,17 +128,17 @@ while main:
                     
                     if sub3 == "9":
                         main = True
+                    
+                    else:
+                        sub3 = True      
 
                 except:
-                    print("Select a valid option!")
                     sub3 = True
 
     if main == "4":
         quit()
 
-    else:
-        print("Select a valid option!")
-        main = True 
+        
 
 #Expect US           
 
