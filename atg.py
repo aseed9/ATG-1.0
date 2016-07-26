@@ -41,7 +41,7 @@ while main:
                         sub = True
 
                     if sub == "2":
-                        print("Subdomain Enumeration, uncover the network's subdomains.")
+                        print("Subdomain Enumeration, uncover the network's subdomains. Mapping the network is essential.")
                         print("Tools for this - Fierce | theharvester | recon-ng")     
                         sub = True
 
@@ -56,8 +56,9 @@ while main:
                         sub = True
 
                     if sub == "5":
-                        print("Gathering publicly available information is mandatory when spear-(phishing).") 
-                        print(" Use google, theharvester, Social network profiles, data.com, and file metadata using FOCA.")
+                        print("Gathering publicly available information is mandatory when (spear)-phishing.") 
+                        print(" Use google, theharvester, Social network profiles, data.com, and file metadata using FOCA to gather as much info as possible.")
+                        print("A key to a good lie lies in the details.")
                         sub = True
 
                     if sub == "6":
